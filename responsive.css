@@ -1,0 +1,122 @@
+@media screen and (max-width: 1239px) {
+    .header, .music-list{
+        left: 16.66667%;
+    }
+    .header-left{
+        width: 80%;
+    }
+    .header__search{
+        width: 80%;
+    }
+    .header__search-text-input{
+        width: 80%;
+    }
+    .music{
+        display: none;
+    }
+    .music-list-wrapper{
+        margin-left: 60px;
+    }
+    .left-menu__top-text, .left-menu__bot-text, .left-menu__bot-signin{
+        font-size: 1rem;
+    }
+    .player{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .player__header{
+        width: 30%;
+        height: 50px;
+        margin: 0;
+    }
+    .player__name{
+        max-width: 30%;
+    }
+    .player__center{
+        width: 30%;
+        height: 50px;
+        margin: 0;
+    }
+    .player__center-progress{
+        justify-content: space-between;
+    }
+    .player__center-progress-input-wrapper{
+        width: 68%;
+    }
+    .player__center-icon {
+        margin-left: 4px;
+    }
+    .player__footer{
+        width: 30%;
+        height: 50px;
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 740px) {
+    .header, .music-list{
+        left: 8.33333%;
+    }
+    .header{
+        width: calc(100% - 4%);
+    }
+    .left-menu__logo, .left-menu__logo-link{
+        margin: 0;
+        padding: 0;
+    }
+    .left-menu__logo-img{
+        content: url("./Assets/img/favicon.gif");
+        margin-left: 15%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    .left-menu__top-text, .left-menu__bot-text, .left-menu__bot-signin{
+        display: none;
+    }
+    .left-menu__logo, .left-menu__logo-link{
+        width: 100%;
+    }
+    .left-menu__top-list, .left-menu__top-item, .left-menu__top-link{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .left-menu__top-icon{
+        width: 60%;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    .left-menu__bot-link, .left-menu__bot-item, .left-menu__bot-list{
+        width: 100%;
+        margin: 0;
+    }
+    .left-menu__bot-icon{
+        width: 60%;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    .left-menu__top-list::after{
+        content: "";
+        left: 15%;
+        right: 0;
+    }
+    .player{
+        justify-content: center;
+    }
+    .music-list__title-text.music-list__title-duration,
+    .music-list__title-text.music-list__title-control,
+    .song-duration,
+    .song-control{
+        display: none;
+    }
+
+    .player__header{
+        visibility: hidden;
+    }
+    .player__footer{
+        justify-content: right;
+    }
+}

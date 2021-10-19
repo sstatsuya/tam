@@ -1,0 +1,18 @@
+@keyframes discRotate {
+    0%{
+        transform: rotate(0);
+    }   
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.disc-rotate{
+    animation: discRotate linear 10s forwards infinite;
+    animation-play-state: paused;
+}
+
+.disc-rotate2{
+    animation: discRotate linear 10s forwards infinite;
+    animation-play-state: paused;
+}
