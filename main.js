@@ -11,7 +11,7 @@ var musicPlayer = {
             name: 'The fading story',
             singer: 'Mihoyo',
             image: './Assets/music/poster1.png',
-            src: '/Assets/music/song10.mp3',
+            src: '/Assets/music/nhac1.mp3',
             id: 0,
         },
         {
