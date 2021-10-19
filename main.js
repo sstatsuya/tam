@@ -120,7 +120,7 @@ var musicPlayer = {
     audio : $('#audio'),
     songItems : null,
 
-    index : 0,
+    index : 1,
     isPlay : false,
     isRewinding : false,
     isMix : false,
