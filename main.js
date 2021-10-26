@@ -60,7 +60,7 @@ var musicPlayer = {
             name: 'More Japanese song',
             singer: 'LMT',
             image: './Assets/music/poster1.png',
-            src: 'https://drive.google.com/file/d/168PD8fZvzycr2_No2AkON4svq0fvqS7p/view?usp=sharing',
+            src: 'https://drive.google.com/uc?export=download&id=1nz79z12ZaUJZYEgwg_axSbG9DOWwrqDy',
             id: 0,
         },
         {
