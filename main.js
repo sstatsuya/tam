@@ -57,10 +57,10 @@ var musicPlayer = {
     //music list
     musics : [
         {
-            name: 'The fading story',
-            singer: 'Mihoyo',
+            name: 'More Japanese song',
+            singer: 'LMT',
             image: './Assets/music/poster1.png',
-            src: '/Assets/music/song1.mp3',
+            src: 'https://drive.google.com/file/d/168PD8fZvzycr2_No2AkON4svq0fvqS7p/view?usp=sharing',
             id: 0,
         },
         {
