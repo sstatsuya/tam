@@ -66,7 +66,7 @@ var musicPlayer = {
         {
             name: 'Aishiteru',
             singer: 'Wotamin',
-            image: './Assets/music/poster0.png',
+            image: './Assets/music/poster1.png',
             src: 'https://drive.google.com/uc?export=download&id=1SzXiSkaRBgAel79jtN9VnZ8nfnfdEt9m',
             id: 1,
         },
