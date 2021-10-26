@@ -307,7 +307,7 @@ var musicPlayer = {
                     return
                 }
                 if(songItem.dataset.index != _this.index){
-                    _this.index = songItem.dataset.index
+                    _this.index = Number(songItem.dataset.index)
                     _this.currentSongToView()
                     _this.playSong()
                 }
