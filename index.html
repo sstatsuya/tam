@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./Assets/img/favicon.gif" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zing MP3 | Nghe nhạc, tải nhạc chất lượng cao</title>
+    <link rel="stylesheet" href="./Assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animation.css">
+    <link rel="stylesheet" href="./responsive.css">
+    </head>
+<body>
+    <div class="app">
+        <!-- header -->
+        <div class="header">
+            <div class="header-left">
+                <div class="header__move">
+                    <div class="header__move-left-btn disable">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="header__move-right-btn">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="header__search">
+                    <i class="header__search-icon fas fa-search"></i>
+                    <input type="text" class="header__search-text-input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-right__control-btn">
+                    <img src="./Assets/img/theme.gif" alt="icon" class="header-right__control-btn-icon">
+                </div>
+                <div class="header-right__control-btn">
+                    <img src="./Assets/img/upload.gif" alt="icon" class="header-right__control-btn-icon">
+                </div>
+                <div class="header-right__control-btn">
+                    <img src="./Assets/img/setting.gif" alt="icon" class="header-right__control-btn-icon">
+                </div>
+                <div class="header-right__control-btn">
+                    <img src="./Assets/img/user.gif" alt="icon" class="header-right__control-btn-icon">
+                </div>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div class="grid content">
+            <div class="row">
+                <!-- left menu -->
+                <div class="left-menu col xl-2 l-2 m-1">
+                    <div class="left-menu__logo">
+                        <a href="#" class="left-menu__logo-link">
+                            <img src="./Assets/img/logo.gif" alt="Logo" class="left-menu__logo-img">
+                        </a>
+                    </div>
+                    <!-- menu top -->
+                    <ul class="left-menu__top-list">
+                        <li class="left-menu__top-item">
+                            <a href="#" class="left-menu__top-link">
+                                <img src="./Assets/img/my-playlist.gif" alt="icon" class="left-menu__top-icon">
+                                <p class="left-menu__top-text">Cá nhân</p>
+                            </a>
+                        </li>
+                        <li class="left-menu__top-item">
+                            <a href="#" class="left-menu__top-link">
+                                <img src="./Assets/img/explorer.gif" alt="icon" class="left-menu__top-icon">
+                                <p class="left-menu__top-text">Khám phá</p>
+                            </a>
+                        </li>
+                        <li class="left-menu__top-item">
+                            <a href="#" class="left-menu__top-link">
+                                <img src="./Assets/img/zing-chart.gif" alt="icon" class="left-menu__top-icon">
+                                <p class="left-menu__top-text">#zingchart</p>
+                            </a>
+                        </li>
+                        <li class="left-menu__top-item">
+                            <a href="#" class="left-menu__top-link">
+                                <img src="./Assets/img/radio.gif" alt="icon" class="left-menu__top-icon">
+                                <p class="left-menu__top-text">Radio</p>
+                            </a>
+                        </li>
+                        <li class="left-menu__top-item">
+                            <a href="#" class="left-menu__top-link">
+                                <img src="./Assets/img/follow.gif" alt="icon" class="left-menu__top-icon">
+                                <p class="left-menu__top-text">Theo dõi</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="left-menu__bot-scroll-wrapper">
+                        <div class="left-menu__bot-wrapper">
+                            <ul class="left-menu__bot-list">
+                                <li class="left-menu__bot-item">
+                                    <a href="#" class="left-menu__bot-link">
+                                        <img src="./Assets/img/new-song.gif" alt="icon" class="left-menu__bot-icon">
+                                        <p class="left-menu__bot-text">Nhạc mới</p>
+                                    </a>
+                                </li>
+                                <li class="left-menu__bot-item">
+                                    <a href="#" class="left-menu__bot-link">
+                                        <img src="./Assets/img/category.gif" alt="icon" class="left-menu__bot-icon">
+                                        <p class="left-menu__bot-text">Thể loại</p>
+                                    </a>
+                                </li>
+                                <li class="left-menu__bot-item">
+                                    <a href="#" class="left-menu__bot-link">
+                                        <img src="./Assets/img/top100.gif" alt="icon" class="left-menu__bot-icon">
+                                        <p class="left-menu__bot-text">Top 100  </p>
+                                    </a>
+                                </li>
+                                <li class="left-menu__bot-item">
+                                    <a href="#" class="left-menu__bot-link">
+                                        <img src="./Assets/img/mv.gif" alt="icon" class="left-menu__bot-icon">
+                                        <p class="left-menu__bot-text">MV</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="left-menu__bot-signin">
+                                <p class="left-menu__bot-signin-text">
+                                    Đăng nhập để khám phá những playlist dành riêng cho chính bạn.
+                                </p>
+                                <div class="left-menu__bot-signin-btn">
+                                    <span class="left-menu__bot-signin-btn-text">Đăng nhập</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- main content -->
+                <div class="main-content music col xl-3">
+                    <div class="music__wrapper">
+                        <div class="music__disc">
+                            <div class="music__disc-wrapper">
+                                <img src="./Assets/img/dics1.gif" alt="dics" class="music__disc-img disc-rotate">
+                                <img src="./Assets/img/wave.gif" class="music__disc-play">
+                                <div class="music__disc-overlay-btn">
+                                    <i class="music__disc-overlay-btn-icon fas fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="music__info">
+                            <span class="music__info-name">Top 100 bài nhạc hay nhất thế giới</span>
+                            <span class="music__info-time">Cập nhật: 15/09/2021</span>
+                            <span class="music__info-like">189K người yêu thích</span>
+                        </div>
+                        <div class="music__play-btn">
+                            <i class="music__play-btn-icon music__play-icon-play fas fa-play"></i>
+                            <i class="music__play-btn-icon music__play-icon-pause hidden fas fa-pause"></i>
+                            <span class="music__play-btn-text">Tiếp tục phát</span>
+                        </div>
+                        <div class="music__action">
+                            <div class="music__action-btn heart">
+                                <i class="music__action-icon far fa-heart"></i>
+                            </div>
+                            <div class="music__action-btn option">
+                                <i class="music__action-icon fas fa-ellipsis-h"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content col music-list xl-7 l-10 m-11">
+                    <div class="music-list-wrapper">
+                        <p class="music-list__desc">
+                            <span>Lời tựa</span> Top 100 Nhạc V-Pop là danh sách 100 ca khúc hot nhất hiện tại của thể loại Nhạc V-Pop, được Zing MP3 tự động tổng hợp dựa trên thông tin số liệu lượt nghe và lượt chia sẻ của từng bài hát trên phiên bản web và phiên bản Mobile. Dữ liệu sẽ được lấy trong 30 ngày gần nhất và được cập nhật liên tục.
+                        </p>
+                        <div class="music-list__title">
+                            <span class="music-list__title-text music-list__title-name">bài hát</span>
+                            <span class="music-list__title-text music-list__title-duration">thời gian</span>
+                            <div class="music-list__title-text music-list__title-control">Mặc định 
+                                <i class="music-list__title-control-icon fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+    
+                        <!-- main music list  -->
+                        <ul class="song-list">
+                            <!-- <li class="song-item active">
+                                <div class="song-title">
+                                    <i class="song-title__icon fas fa-music"></i>
+                                    <div class="song-title__img-wrapper">
+                                        <img src="./Assets/music/poster1.png" alt="song" class="song-title__img">
+                                        <i class="song-title__img-play-icon fas fa-play"></i>
+                                    </div>
+                                    <div class="song-title__info">
+                                        <span class="song-title__info-name">The fading story</span>
+                                        <span class="song-title__info-author">Mihoyo</span>
+                                    </div>
+                                </div>
+                                <div class="song-duration">04:07</div>
+                                <div class="song-control">
+                                    <div class="song-control__mic-btn song-control__btn">
+                                        <i class="song-control__mic-icon song-control__icon fas fa-microphone"></i>
+                                    </div>
+                                    <div class="song-control__heart-btn song-control__btn">
+                                        <i class="song-control__heart-icon song-control__icon far fa-heart"></i>
+                                    </div>
+                                    <div class="song-control__option-btn song-control__btn">
+                                        <i class="song-control__option-icon fas song-control__icon fa-ellipsis-h"></i>
+                                    </div>
+                                </div>
+                            </li>-->
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Player -->
+        <div class="player">
+            <!-- Player header -->
+            <div class="player__header">
+                <div class="player__disc disc-rotate2">
+                    <img src="./Assets/music/poster1.png" alt="song" class="player__disc-img">
+                </div>
+                <div class="player__name">
+                    <span class="player__name-title">The fading story</span>
+                    <span class="player__name-singer">Mihoyo</span>
+                </div>
+                <div class="player__header-control">
+                    <div class="player__header-heart-btn player__header-control">
+                        <i class="player__header-control-icon far fa-heart"></i>
+                    </div>
+                    <div class="player__header-option-btn player__header-control">
+                        <i class="player__header-control-icon fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player center -->
+            <div class="player__center">
+                <div class="player__center-control">
+                    <div class="player__center-random-btn player__center-btn">
+                        <i class="player__center-icon player__center-icon-random  fas fa-random"></i>
+                    </div>
+                    <div class="player__center-prev-btn player__center-btn">
+                        <i class="player__center-icon player__center-icon-prev  fas fa-step-backward"></i>
+                    </div>
+                    <div class="player__center-play-btn player__center-btn">
+                        <i class="player__center-icon player__center-icon-play  fas fa-play"></i>
+                        <i class="disable player__center-icon player__center-icon-pause  fas fa-pause"></i>
+                    </div>
+                    <div class="player__center-next-btn player__center-btn">
+                        <i class="player__center-icon player__center-icon-next  fas fa-step-forward"></i>
+                    </div>
+                    <div class="player__center-mix-btn player__center-btn">
+                        <i class="player__center-icon player__center-icon-loop  fas fa-undo"></i>
+                    </div>
+                </div>
+                <div class="player__center-progress">
+                    <span class="player__center-current-time">00:00</span>
+                    <div class="player__center-progress-input-wrapper">
+                        <input type="range" class="player__center-progress-input" value="0" min="0" max="500" step="1">
+                    </div>
+                    <span class="player__center-remaining-time">00:00</span>
+                </div>
+            </div>
+
+            <!-- Player footer -->
+            <div class="player__footer">
+                <div class="player__footer-volume-btn">
+                    <span class="player__footer-volume-btn-mute"></span>
+                    <i class="player__footer-volume-icon player__footer-volume-on fas fa-volume-up"></i>
+                    <i class="disable player__footer-volume-icon player__footer-volume-off fas fa-volume-mute"></i>
+                </div>
+                <div class="player__footer-volume-progress">
+                    <input type="range" class="player__footer-volume-progress-input" value="50" min="0" max="100" step="1">
+                </div>
+            </div>
+        </div>
+        <audio id="audio" controls="controls">
+        </audio>    
+    </div>
+</body>
+</html>
+<script src="./main.js"></script>
