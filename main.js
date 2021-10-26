@@ -85,17 +85,17 @@ var musicPlayer = {
             id: 3,
         },
         {
-            name: 'Moonlike smile',
-            singer: 'Mihoyo',
+            name: 'Orion no Yume',
+            singer: 'Kaori',
             image: './Assets/music/poster4.png',
-            src: './Assets/music/song2.mp3',
+            src: 'https://drive.google.com/uc?export=download&id=1ckQ2baiLhjjy8-kxwpHGeiuv1RHbGMi7',
             id: 4,
         },
         {
-            name: 'Orion no Yume',
-            singer: 'Kaori',
+            name: 'Moonlike smile',
+            singer: 'Mihoyo',
             image: './Assets/music/poster5.png',
-            src: 'https://drive.google.com/uc?export=download&id=1ckQ2baiLhjjy8-kxwpHGeiuv1RHbGMi7',
+            src: './Assets/music/song2.mp3',
             id: 5,
         },
         {
