@@ -46,7 +46,7 @@ var musicPlayer = {
     audio : $('#audio'),
     songItems : null,
 
-    index : 1,
+    index : 0,
     isPlay : false,
     isRewinding : false,
     isMix : false,
